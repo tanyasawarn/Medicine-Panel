@@ -1,0 +1,58 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .product .description {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .product p {
+    margin: 0;
+  }
+  
+  .product p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product p:nth-child(2) {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .product p:nth-child(3) {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
+   
+  .actions {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #9f5ccc;
+    border: 1px solid #9f5ccc;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #873abb;
+    border-color: #873abb;
+  }
+  
+   
